@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake Game</title>
+</head>
+
+<body>
+    <div class="game">
+        <h1>Snake Game</h1>
+
+        <h3>Scores: <span id="scores">0</span></h3>
+
+        <div class="gridContainer"></div>
+
+        <div id="allbtn" class="allbtn">
+            <div class="navigations">
+                <button id="navup">&#8607;</button>
+            </div>
+
+            <div class="navigations">
+                <button id="navleft">&#8606;</button>
+                <button id="navright">&#8608;</button>
+            </div>
+
+            <div class="navigations">
+                <button id="navdown">&#8609;</button>
+            </div>
+        </div>
+
+        <button id="startbtn">Start/Reset</button>
+    </div>
+
+    <div id="gameOver" class="gameOver">
+        <h1 id="gameOverText">Game Over</h1>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
